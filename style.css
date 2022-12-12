@@ -1,0 +1,138 @@
+:root {
+  --clr-Red: hsl(0, 100%, 74%);
+  --clr-Green: hsl(154, 59%, 51%);
+  --clr-Blue: hsl(248, 32%, 49%);
+  --clr-DarkBlue: hsl(249, 10%, 26%);
+  --clr-GrayishBlue: hsl(246, 25%, 77%);
+}
+body {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+}
+.container {
+  width: 1440px;
+}
+.background {
+  width: 1000px;
+  height: 1000px;
+  background-color: var(--clr-GrayishBlue);
+  margin: 200px 200px;
+}
+.content {
+  width: 750px;
+  height: 750px;
+  background-color: var(--clr-Red);
+  position: absolute;
+  top: 320px;
+  left: 330px;
+  display: flex;
+  flex-direction: row;
+}
+.bgimg {
+  width: 700px;
+  height: 700px;
+  position: absolute;
+
+  top: 50px;
+}
+.aboutcontent {
+  width: 300px;
+  position: absolute;
+  top: 260px;
+  left: 50px;
+  color: white;
+}
+.det {
+  text-align: justify;
+  font-size: 10px;
+}
+.details {
+  width: 300px;
+  position: absolute;
+  top: 200px;
+  left: 320px;
+}
+.userdata {
+  width: 280px;
+  height: 280px;
+  position: absolute;
+  top: 30px;
+  left: 60px;
+  border-radius: 5px;
+  background-color: white;
+  padding: 30px 30px;
+}
+.fname {
+  margin: 10px 10px;
+  width: 240px;
+  height: 25px;
+  border-radius: 5px;
+  border-color: var(--clr-Blue);
+}
+.fname:hover {
+  color: var(--clr-Blue);
+}
+.lname {
+  margin: 10px 10px;
+  width: 240px;
+  height: 25px;
+  border-radius: 5px;
+  border-color: var(--clr-Blue);
+}
+.lname:hover {
+  color: var(--clr-Blue);
+}
+.pwd {
+  margin: 10px 10px;
+  width: 240px;
+  height: 25px;
+  border-radius: 5px;
+  border-color: var(--clr-Blue);
+}
+.pwd:hover {
+  color: var(--clr-Blue);
+}
+.mail {
+  margin: 10px 10px;
+  width: 240px;
+  height: 25px;
+  border-radius: 5px;
+  border-color: var(--clr-Blue);
+}
+.mail:hover {
+  color: var(--clr-Blue);
+}
+.claim {
+  margin: 10px 10px;
+  background-color: var(--clr-Green);
+  color: white;
+  width: 250px;
+  height: 25px;
+  border-radius: 5px;
+  border-color: var(--clr-Green);
+}
+.terms {
+  font-size: 8px;
+  padding: 10px 10px;
+  margin-left: 5px;
+}
+.trial {
+  position: absolute;
+  bottom: 30px;
+  left: 60px;
+  width: 330px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: var(--clr-Blue);
+  border-color: var(--clr-Blue);
+  color: white;
+  font-size: 12px;
+}
+.condn {
+  color: var(--clr-Red);
+  font-size: 8px;
+  position: absolute;
+  bottom: 23px;
+  left: 233px;
+}
